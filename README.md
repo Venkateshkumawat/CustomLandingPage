@@ -105,4 +105,3 @@ This project is licensed under the MIT License – feel free to fork, modify, an
 6. **Contribution Guidelines**: Encouraging collaboration and easy instructions for contribution.
 7. **Support Links**: Direct contact for support or questions.
 
-This structure should make the README both visually appealing and highly informative for future users or contributors.
