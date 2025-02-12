@@ -70,3 +70,39 @@ git clone https://github.com/yourusername/CustomLandingPage.git
 cd CustomLandingPage
 
 ```
+### **Install Dependencies**
+Once inside the project directory, run the following command to install the necessary dependencies:
+```bash
+npm install
+# or
+yarn install
+
+```
+### **Run the Development Server**
+To see the landing page in action locally, start the development server:
+```bash
+npm run dev
+# or
+yarn dev
+```
+You can view your website at http://localhost:3000
+## 📜 ** License**
+This project is licensed under the MIT License – feel free to fork, modify, and redistribute.
+
+## 🌍 **Stay Connected**
+- **LinkedIn**: [Venkatesh Kumawat](https://www.linkedin.com/in/venkatesh-kumawat-b2833a12b)
+- **Instagram**: [@vinay.____._](https://www.instagram.com/vinay.____._)
+
+---
+
+### **Key Highlights:**
+
+1. **Engaging GIF at the top**: A dynamic demo GIF grabs attention immediately.
+2. **Futuristic design**: Clean, modern, and professional tone with sleek sections and easy-to-navigate formatting.
+3. **Icons and Animations**: Added emojis and icons to make the README visually appealing.
+4. **Interactive Links**: Live demo and screenshots are linked directly to give users a visual idea of the project.
+5. **Clear Setup Instructions**: Easy-to-follow steps for installation and customization.
+6. **Contribution Guidelines**: Encouraging collaboration and easy instructions for contribution.
+7. **Support Links**: Direct contact for support or questions.
+
+This structure should make the README both visually appealing and highly informative for future users or contributors.
