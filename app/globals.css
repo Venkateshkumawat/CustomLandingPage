@@ -1,0 +1,110 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 212 17% 16%; /* #212A31 */
+    --foreground: 0 0% 100%;
+
+    --card: 212 17% 16%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 212 17% 16%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 196 70% 23%; /* #124E66 */
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 213 24% 22%; /* #2E3944 */
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 213 24% 22%;
+    --muted-foreground: 197 12% 82%; /* #D3D9D4 */
+
+    --accent: 199 12% 51%; /* #748D92 */
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 196 70% 23%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 212 17% 16%;
+    --foreground: 0 0% 100%;
+
+    --card: 212 17% 16%;
+    --card-foreground: 0 0% 100%;
+
+    --popover: 212 17% 16%;
+    --popover-foreground: 0 0% 100%;
+
+    --primary: 196 70% 23%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 213 24% 22%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 213 24% 22%;
+    --muted-foreground: 197 12% 82%;
+
+    --accent: 199 12% 51%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 213 24% 22%;
+    --input: 213 24% 22%;
+    --ring: 196 70% 23%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.animate-gradient {
+  background-size: 200% 200%;
+  animation: gradient 8s linear infinite;
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes gradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
